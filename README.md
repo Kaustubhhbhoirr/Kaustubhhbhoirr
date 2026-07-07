@@ -190,20 +190,10 @@ Features a multi-shell launcher that auto-detects available shells per OS, live 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Kaustubhhbhoirr&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=7C3AED&text_color=C9D1D9&count_private=true" width="48%"/>
+<img src="https://github-stats-extended.vercel.app/api?username=Kaustubhhbhoirr&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=7C3AED&text_color=C9D1D9&count_private=true" width="48%"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kaustubhhbhoirr&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="48%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kaustubhhbhoirr&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" width="48%"/>
-
-</div>
-
-<br/>
-
-## 🏅 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Kaustubhhbhoirr&theme=discord&no-frame=true&row=1&column=6&margin-w=8" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Kaustubhhbhoirr&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" width="48%"/>
 
 </div>
 
@@ -238,7 +228,7 @@ current_focus:
     - Machine Learning basics — moving from theory to real projects
     - SQL fundamentals
   building:
-    - Handwritten alphabet/character recogniser (active ML project)
+    - Handwritten alphabet/character recognizer (active ML project)
     - Small custom ML projects, one at a time
   exploring:
     - How to build tools that solve real, shared problems — not just resume filler
@@ -264,7 +254,7 @@ current_focus:
 
 <div align="center">
 
-*"We don't want your data. We don't want your money. We just want you to actually use what you build."*
+*"Still learning. Still building. Still figuring it out."*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:7C3AED,100:6D28D9&height=120&section=footer" width="100%"/>
 
