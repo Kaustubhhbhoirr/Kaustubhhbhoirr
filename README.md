@@ -55,6 +55,7 @@
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Google Stitch](https://img.shields.io/badge/Google_Stitch-4F46E5?style=flat-square&logo=google&logoColor=white)
+![Google Antigravity](https://img.shields.io/badge/Google_Antigravity-6D28D9?style=flat-square&logo=google&logoColor=white)
 
 **Backend & Databases**
 
