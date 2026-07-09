@@ -55,7 +55,6 @@
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Google Stitch](https://img.shields.io/badge/Google_Stitch-4F46E5?style=flat-square&logo=google&logoColor=white)
-![Google Antigravity](https://img.shields.io/badge/Google_Antigravity-6D28D9?style=flat-square&logo=google&logoColor=white)
 
 **Backend & Databases**
 
@@ -72,7 +71,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-
+![Google Antigravity](https://img.shields.io/badge/Google_Antigravity-6D28D9?style=flat-square&logo=google&logoColor=white)
 </div>
 
 <br/>
@@ -83,8 +82,8 @@
 
 | Domain | Proficiency | Details |
 |---|:---:|---|
-| **Computer Vision** | 🟣 Building | Currently developing a handwritten alphabet/character recognizer — my first hands-on ML project, learning image classification fundamentals through it |
-| **Core ML / Python** | 🟪 Learning | Working through Python + ML fundamentals with the goal of building multiple small custom ML projects this year |
+| **Computer Vision** | 🟣 Building | Currently developing a handwritten alphabet/character recogniser — my first hands-on ML project, learning image classification fundamentals through it |
+| **Core ML / Python** | 🟪 Learning | Working through Python + ML fundamentals to build multiple small custom ML projects this year |
 
 </div>
 
@@ -229,7 +228,7 @@ current_focus:
     - Machine Learning basics — moving from theory to real projects
     - SQL fundamentals
   building:
-    - Handwritten alphabet/character recognizer (active ML project)
+    - Handwritten Alphabet Recognition-Neural Network from scratch (active ML project)
     - Small custom ML projects, one at a time
   exploring:
     - How to build tools that solve real, shared problems — not just resume filler
