@@ -158,7 +158,7 @@ Features a multi-shell launcher that auto-detects available shells per OS, live 
 |---|---|
 | 🥈 Top 10 Finalist | **Tech A1 Sprint Hackathon** |
 | 🥉 4th Rank | **IEEE Cognithon** |
-| 🥉 4th Rank | **Iron Man Bootcamp Hackathon** (College) |
+| 🏅 5th Rank | **Iron Man Bootcamp Hackathon** (College) |
 
 </div>
 
