@@ -92,40 +92,54 @@
 ## 💜 Featured Projects
 
 <details open>
-<summary><b>🖥️ GrindOS — Offline Desktop LeetCode Tracker</b></summary>
+<summary><b>🗄️ VaultMCP — Save What You Scroll, Use What You Saved</b></summary>
 <br/>
 
-A native desktop app for tracking your DSA/LeetCode journey — problems, streaks, code, and everything in between. No cloud, no login, no account required. Everything lives as a local JSON file on your machine.
+You're scrolling. A creator shows you a killer prompt or a tool you'll definitely need later. You bookmark it. You never see it again.
 
-Built this because most people track LeetCode progress in a messy Notion doc or spreadsheet — GrindOS gives it a real GitHub-style activity calendar, a Monaco-powered code editor for solutions, a revisit queue for tough problems, and full personal stats — all 100% offline.
+VaultMCP takes anything — a URL, a GitHub repo, a PDF, DOCX, XLSX, PPTX, or raw text — runs it through Qwen 2.5 Coder 32B to pull out a title, category, summary and links, and stores it in Firestore. The part I actually care about: it exposes your vault over **Model Context Protocol**, so Claude or Cursor can read it *while you're coding* and surface the tool you saved three weeks ago without you ever leaving the editor.
 
 | | |
 |---|---|
-| **Stack** | Electron · React + Vite · Tailwind CSS · Monaco Editor |
-| **Scale** | Native Windows desktop app, packaged installer |
-| **Performance** | Fully offline — zero network calls, instant local read/write |
-| **Security** | No accounts, no telemetry, no data ever leaves the machine |
-| **Impact** | Solves a real gap — every other tracker forces cloud accounts |
-| **Repository** | [GRINDOS →](https://github.com/Kaustubhhbhoirr/GRINDOS) |
+| **Stack** | React + Vite (PWA) · FastAPI · Qwen 2.5 Coder 32B · Firebase Auth + Firestore · FastMCP |
+| **Hosting** | Vercel frontend · FastAPI backend on Hugging Face Spaces |
+| **MCP tools** | `get_vault` · `search_vault` · `compare_project` |
+| **Links** | [Live app](https://vault-mcp-4ssi.vercel.app) · [Demo video](https://youtu.be/nDrAqqr_7sQ) · [Repository](https://github.com/Kaustubhhbhoirr/VaultMcp) |
 
 </details>
 
 <details>
-<summary><b>🗄️ VaultMCP — Save What You Scroll, Use What You Saved</b></summary>
+<summary><b>🖥️ GrindOS — Offline Desktop LeetCode Tracker</b></summary>
 <br/>
 
-An open-source PWA that captures tools, prompts, links, and ideas from anywhere — Instagram, YouTube, websites, PDFs, raw text — and turns them into structured, searchable Markdown saved directly to your own Google Drive. No more losing a great prompt you saw at 2am.
+Most people track their DSA grind in a messy Notion doc or a spreadsheet. GrindOS is a native Windows desktop app instead — log every problem with your approach, your actual solution code in a Monaco editor, time spent and a self-rating, then watch it fill in a GitHub-style activity calendar.
 
-Content gets processed through an AI pipeline that extracts metadata (YouTube/GitHub-aware), summarizes it, and writes it into a clean `vault.md`. It also exposes **MCP server endpoints**, so the vault itself can be queried by an AI agent when you're starting a new build.
+It keeps a revisit queue for the problems that beat you, an incomplete tracker for the ones you left half-solved, and real stats — best streak, average solve time per difficulty, strongest and weakest topics. Data lives as a local JSON file in AppData. No account, no telemetry, no server.
 
 | | |
 |---|---|
-| **Stack** | React + Vite (PWA) · FastAPI (Python) · Qwen2.5-7B via HF Router · Google Drive OAuth |
-| **Scale** | Live deployed app + separate hosted backend on Hugging Face Spaces |
-| **Performance** | Real-time processing pipeline: paste → AI structuring → Drive sync |
-| **Security** | Zero server-side storage — data flows Browser → Backend (process only) → your own Drive |
-| **Impact** | Open source, MIT licensed, $0 to run — built to be free forever |
-| **Repository** | [VaultMcp →](https://github.com/Kaustubhhbhoirr/VaultMcp) |
+| **Stack** | Electron · React + Vite · Tailwind CSS · Monaco Editor |
+| **Ships as** | Packaged Windows installer — v1.1.0 |
+| **Data** | Local JSON in AppData · export/import to move between machines |
+| **Links** | [Download](https://github.com/Kaustubhhbhoirr/GRINDOS/releases) · [Repository](https://github.com/Kaustubhhbhoirr/GRINDOS) |
+
+</details>
+
+<details>
+<summary><b>📐 Scales — Paste Mermaid Code, Get a High-Res Image</b></summary>
+<br/>
+
+You ask an AI to diagram your architecture and it hands you Mermaid code. You just want a PNG for a slide. Every online converter wants a signup, a rate limit, or your private architecture sitting on their server.
+
+Scales is one HTML file and three scripts — no framework, no bundler, no backend. Paste, the preview re-renders on every keystroke, export PNG at 1x/2x/4x or SVG. Mermaid and the fonts are vendored into the repo, so it makes zero external requests and works fully offline.
+
+Two bugs in here were worth the writeup: zooming with `transform: scale()` stretches a rasterized bitmap and goes blurry, so zoom sets pixel `width`/`height` and lets the browser re-render the vector instead; and Mermaid's default `foreignObject` labels get their descenders sheared off when the browser rasterizes SVG to canvas, fixed by dropping to native SVG `<text>`.
+
+| | |
+|---|---|
+| **Stack** | Vanilla JS · Mermaid v10 (vendored) — no build step, no `node_modules` |
+| **Exports** | PNG 1x/2x/4x · SVG · clipboard · transparent background |
+| **Links** | [Live app](https://scales-ruddy.vercel.app/) · [Repository](https://github.com/Kaustubhhbhoirr/Scales) |
 
 </details>
 
@@ -133,18 +147,15 @@ Content gets processed through an AI pipeline that extracts metadata (YouTube/Gi
 <summary><b>⚡ TermPad — Your Terminal, One Click Away</b></summary>
 <br/>
 
-A VS Code / Cursor / Google Antigravity extension that turns your most-repeated terminal commands into a sidebar dashboard of buttons — no more retyping `git status`, `npm run dev`, `cd ..` a dozen times a day.
+You open a project. You type `git status`, then `npm run dev`, then `cd ..`, then `clear`, then `git status` again. TermPad puts all of it in a sidebar dashboard — click a button, the command fires into your active terminal.
 
-Features a multi-shell launcher that auto-detects available shells per OS, live search filtering, drag-and-drop custom layouts, and full config import/export for syncing your setup across machines or a team.
+Multi-shell launcher that auto-detects what your OS actually has (PowerShell, CMD, Git Bash and WSL on Windows; zsh, bash and fish elsewhere), live search for once your command list grows, drag-and-drop section ordering, and JSON import/export so you can carry your setup to another machine or hand it to a teammate.
 
 | | |
 |---|---|
 | **Stack** | JavaScript · VS Code Extension API |
-| **Scale** | Published on the VS Code Marketplace, compatible with any VS Code fork |
-| **Performance** | Instant command dispatch to active terminal |
-| **Security** | Runs entirely local to the editor, no external calls |
-| **Impact** | Small daily-friction fix — the kind of tool you use 50 times a day without noticing |
-| **Repository** | [Termpad →](https://github.com/Kaustubhhbhoirr/Termpad) |
+| **Published** | VS Code Marketplace — works in VS Code, Cursor, Google Antigravity, any fork |
+| **Links** | [Marketplace](https://marketplace.visualstudio.com/items?itemName=kaustubhbhoir.termpad) · [Repository](https://github.com/Kaustubhhbhoirr/Termpad) |
 
 </details>
 
