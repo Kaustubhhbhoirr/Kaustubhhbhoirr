@@ -8,7 +8,7 @@
 
 ![Academic](https://img.shields.io/badge/Pillai_College_of_Engineering-SY_Computer_Engineering-6D28D9?style=for-the-badge&logo=googlescholar&logoColor=white)
 ![Location](https://img.shields.io/badge/New_Panvel-India-4F46E5?style=for-the-badge&logo=googlemaps&logoColor=white)
-![GDG on Campus](https://img.shields.io/badge/GDG_on_Campus_PCE-Technical_Team-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![GDG on Campus](https://img.shields.io/badge/GDG_on_Campus_PCE-Technical_Team-4F46E5?style=for-the-badge&logo=google&logoColor=white)
 
 <br/>
 
