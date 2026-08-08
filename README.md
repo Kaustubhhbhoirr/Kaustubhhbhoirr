@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,50:7C3AED,100:4F46E5&height=220&section=header&text=Kaustubh%20Bhoir&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Building%20things%20that%20help%20people,%20not%20just%20portfolios&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,50:7C3AED,100:4F46E5&height=220&section=header&text=Kaustubh%20Bhoir&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Building%20things%20that%20help%20people,%20not%20just%20portfolios&descAlignY=55&descSize=18" width="100%" alt="Kaustubh Bhoir — building things that help people, not just portfolios"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=600&lines=Second-Year+Computer+Engineering+Student;Learning+ML+%7C+Building+in+Public;Currently+Training+a+Handwritten+Character+Recognizer;Open+Source+%3E+Solo+Projects" alt="Typing SVG" />
 
@@ -58,20 +58,23 @@
 
 **Backend & Databases**
 
-![Python](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Cloud Firestore](https://img.shields.io/badge/Cloud_Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
 **Cloud, DevOps & Tools**
 
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/Hugging_Face_Spaces-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Firebase Console](https://img.shields.io/badge/Firebase_Console-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Google Drive](https://img.shields.io/badge/Google_Drive_API-4285F4?style=flat-square&logo=googledrive&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![Google Antigravity](https://img.shields.io/badge/Google_Antigravity-6D28D9?style=flat-square&logo=google&logoColor=white)
+
 </div>
 
 <br/>
@@ -82,7 +85,7 @@
 
 | Domain | Proficiency | Details |
 |---|:---:|---|
-| **Computer Vision** | 🟣 Building | Currently developing a handwritten alphabet/character recogniser — my first hands-on ML project, learning image classification fundamentals through it |
+| **Computer Vision** | 🟣 Building | Currently developing a handwritten alphabet/character recognizer — my first hands-on ML project, learning image classification fundamentals through it |
 | **Core ML / Python** | 🟪 Learning | Working through Python + ML fundamentals to build multiple small custom ML projects this year |
 
 </div>
@@ -190,7 +193,7 @@ Multi-shell launcher that auto-detects what your OS actually has (PowerShell, CM
 
 <div align="center">
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-Getting_Back_Into_DSA-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
+![LeetCode](https://img.shields.io/badge/LeetCode-Getting_Back_Into_DSA-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
 
 *Being honest — this one's currently dusty. DSA practice is on the list.*
 
@@ -202,10 +205,10 @@ Multi-shell launcher that auto-detects what your OS actually has (PowerShell, CM
 
 <div align="center">
 
-<img src="https://github-stats-extended.vercel.app/api?username=Kaustubhhbhoirr&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=7C3AED&text_color=C9D1D9&count_private=true" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kaustubhhbhoirr&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="48%"/>
+<img src="https://github-stats-extended.vercel.app/api?username=Kaustubhhbhoirr&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=7C3AED&text_color=C9D1D9&count_private=true" width="48%" alt="Kaustubh's GitHub stats"/>
+<img src="https://streak-stats.demolab.com/?user=Kaustubhhbhoirr&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" width="48%" alt="GitHub contribution streak"/>
 
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Kaustubhhbhoirr&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" width="48%"/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Kaustubhhbhoirr&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" width="48%" alt="Most used languages"/>
 
 </div>
 
@@ -215,7 +218,7 @@ Multi-shell launcher that auto-detects what your OS actually has (PowerShell, CM
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kaustubhhbhoirr&theme=react-dark&hide_border=true&bg_color=0D1117&color=A78BFA&line=7C3AED&point=C9D1D9" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kaustubhhbhoirr&theme=react-dark&hide_border=true&bg_color=0D1117&color=A78BFA&line=7C3AED&point=C9D1D9" width="95%" alt="Contribution activity graph"/>
 
 </div>
 
@@ -225,7 +228,10 @@ Multi-shell launcher that auto-detects what your OS actually has (PowerShell, CM
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Kaustubhhbhoirr/Kaustubhhbhoirr/output/github-contribution-grid-snake-dark.svg" width="95%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kaustubhhbhoirr/Kaustubhhbhoirr/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Kaustubhhbhoirr/Kaustubhhbhoirr/output/github-contribution-grid-snake.svg" width="95%" alt="Snake eating my contribution graph" />
+</picture>
 
 </div>
 
@@ -240,7 +246,7 @@ current_focus:
     - Machine Learning basics — moving from theory to real projects
     - SQL fundamentals
   building:
-    - Handwritten Alphabet Recognition-Neural Network from scratch (active ML project)
+    - Handwritten alphabet recognition — a neural network from scratch (active ML project)
     - Small custom ML projects, one at a time
   exploring:
     - How to build tools that solve real, shared problems — not just resume filler
@@ -268,6 +274,6 @@ current_focus:
 
 *"Still learning. Still building. Still figuring it out."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:7C3AED,100:6D28D9&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:7C3AED,100:6D28D9&height=120&section=footer" width="100%" alt=""/>
 
 </div>
